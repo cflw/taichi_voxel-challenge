@@ -1,9 +1,9 @@
 # <a name="title">Taichi Voxel Challenge</a>
 
-[小孔成像.py](小孔成像.py)
-![小孔成像](小孔成像.png)
 [三棱镜.py](三棱镜.py)
 ![三棱镜](三棱镜.png)
+[围棋.py](围棋.py)
+![围棋](围棋白.png)
 
 
 We invite you to create your voxel artwork, by putting your [Taichi](https://github.com/taichi-dev/taichi) code in `main.py`!

@@ -2,7 +2,7 @@ from scene import Scene
 import taichi as ti
 from taichi.math import *
 v场景 = Scene(voxel_edges = 0, exposure = 1)
-v场景.set_floor(-1, (0.1, 0.1, 0.1))
+v场景.set_floor(-8/64, (0.1, 0.1, 0.1))
 v场景.set_directional_light((0, 1, 0), 0.1, (0.1, 0.1, 0.1))
 N = 64	#大小
 半N = N // 2
