@@ -32,7 +32,7 @@ class C四边形:	#一个不规则四边形
 		self.uv = self.uv_x if self.x0 != 1 else (self.uv_y if self.y0 != 1 else self.uv_1)
 	@ti.func
 	def uv_x(self, p):	#给定一点p=(x,y),计算p在四边形中的uv坐标.这是x0≠1的情况
-		#解方程lerp(1,x0,v)*u=x和lerp(1,x0,u)*v=y.计算过程在草稿纸上
+		#解方程lerp(1,x0,v)*u=x和lerp(1,y0,u)*v=y.计算过程在草稿纸上
 		x, y = self.im @ (p - self.o)
 		a, b, c = self.x0-1, x*self.y0-x-(self.x0-1)*y+1, -y
 		v = (-b + ti.sqrt(b*b - 4*a*c)) / (2*a)	#只取第一个解

@@ -4,7 +4,8 @@
 ![三棱镜](三棱镜.png)
 [围棋.py](围棋.py)
 ![围棋](围棋白.png)
-
+[长城.py](长城.py)
+![长城1](长城1.png)
 
 We invite you to create your voxel artwork, by putting your [Taichi](https://github.com/taichi-dev/taichi) code in `main.py`!
 
